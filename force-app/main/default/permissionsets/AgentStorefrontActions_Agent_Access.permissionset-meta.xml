@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>AgentStorefrontActions</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <description>Grants Einstein Agent user access to the AgentStorefrontActions invocable Apex class.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Agent Storefront Actions Agent Access</label>
+</PermissionSet>

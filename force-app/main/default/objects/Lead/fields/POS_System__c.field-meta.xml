@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POS_System__c</fullName>
+    <label>POS System Used</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Square</fullName>
+                <default>false</default>
+                <label>Square</label>
+            </value>
+            <value>
+                <fullName>Toast</fullName>
+                <default>false</default>
+                <label>Toast</label>
+            </value>
+            <value>
+                <fullName>Clover</fullName>
+                <default>false</default>
+                <label>Clover</label>
+            </value>
+            <value>
+                <fullName>Revel</fullName>
+                <default>false</default>
+                <label>Revel</label>
+            </value>
+            <value>
+                <fullName>Lightspeed</fullName>
+                <default>false</default>
+                <label>Lightspeed</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

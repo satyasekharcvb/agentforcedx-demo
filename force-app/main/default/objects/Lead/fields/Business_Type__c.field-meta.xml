@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Type__c</fullName>
+    <label>Business Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Restaurant Group</fullName>
+                <default>false</default>
+                <label>Restaurant Group</label>
+            </value>
+            <value>
+                <fullName>Food Chain</fullName>
+                <default>false</default>
+                <label>Food Chain</label>
+            </value>
+            <value>
+                <fullName>Franchise Owner</fullName>
+                <default>false</default>
+                <label>Franchise Owner</label>
+            </value>
+            <value>
+                <fullName>Independent Vendor</fullName>
+                <default>false</default>
+                <label>Independent Vendor</label>
+            </value>
+            <value>
+                <fullName>Ghost Kitchen</fullName>
+                <default>false</default>
+                <label>Ghost Kitchen</label>
+            </value>
+            <value>
+                <fullName>Food Truck</fullName>
+                <default>false</default>
+                <label>Food Truck</label>
+            </value>
+            <value>
+                <fullName>Caterer</fullName>
+                <default>false</default>
+                <label>Caterer</label>
+            </value>
+            <value>
+                <fullName>Convenience Store</fullName>
+                <default>false</default>
+                <label>Convenience Store</label>
+            </value>
+            <value>
+                <fullName>Grocery Store</fullName>
+                <default>false</default>
+                <label>Grocery Store</label>
+            </value>
+            <value>
+                <fullName>Corporate Client</fullName>
+                <default>false</default>
+                <label>Corporate Client</label>
+            </value>
+            <value>
+                <fullName>Supplier</fullName>
+                <default>false</default>
+                <label>Supplier</label>
+            </value>
+            <value>
+                <fullName>Distributor</fullName>
+                <default>false</default>
+                <label>Distributor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

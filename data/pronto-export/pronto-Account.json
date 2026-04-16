@@ -1,0 +1,154 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "Artisan Plates & Co.",
+            "Phone": "214-555-7070",
+            "BillingStreet": "2140 North Hall Street",
+            "BillingCity": "Dallas",
+            "BillingState": "Texas",
+            "BillingPostalCode": "75201",
+            "BillingCountry": "United States",
+            "Type": "Restaurant Group",
+            "Industry": "Food & Beverage"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef2"
+            },
+            "Name": "Basil & Thyme Cafe",
+            "Phone": "469-555-8080",
+            "BillingStreet": "1101 West Davis Street",
+            "BillingCity": "Dallas",
+            "BillingState": "Texas",
+            "BillingPostalCode": "75208",
+            "BillingCountry": "United States",
+            "Type": "Independent Vendor",
+            "Industry": "Food & Beverage"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef3"
+            },
+            "Name": "Epicurean Edge Grill",
+            "Phone": "214-555-0100",
+            "BillingStreet": "3839 McKinney Avenue",
+            "BillingCity": "Dallas",
+            "BillingState": "Texas",
+            "BillingPostalCode": "75204",
+            "BillingCountry": "United States",
+            "Type": "Independent Vendor",
+            "Industry": "Food & Beverage"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef4"
+            },
+            "Name": "BiteFusion Kitchen",
+            "Phone": "972-555-3030",
+            "BillingStreet": "2615 Elm Street",
+            "BillingCity": "Dallas",
+            "BillingState": "Texas",
+            "BillingPostalCode": "75226",
+            "BillingCountry": "United States",
+            "Type": "Restaurant Group",
+            "Industry": "Food & Beverage"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef5"
+            },
+            "Name": "Harvest Table Kitchens",
+            "Phone": "972-555-9090",
+            "BillingStreet": "320 Singleton Boulevard",
+            "BillingCity": "Dallas",
+            "BillingState": "Texas",
+            "BillingPostalCode": "75212",
+            "BillingCountry": "United States",
+            "Type": "Restaurant Group",
+            "Industry": "Food & Beverage"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef6"
+            },
+            "Name": "MetroMunch Marketplace",
+            "Phone": "972-555-6060",
+            "BillingStreet": "2800 Routh Street",
+            "BillingCity": "Dallas",
+            "BillingState": "Texas",
+            "BillingPostalCode": "75201",
+            "BillingCountry": "United States",
+            "Type": "Restaurant Group",
+            "Industry": "Food & Beverage"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef7"
+            },
+            "Name": "GreenFork Bistro",
+            "Phone": "214-555-4040",
+            "BillingStreet": "3011 Gulden Lane",
+            "BillingCity": "Dallas",
+            "BillingState": "Texas",
+            "BillingPostalCode": "75212",
+            "BillingCountry": "United States",
+            "Type": "Independent Vendor",
+            "Industry": "Food & Beverage"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef8"
+            },
+            "Name": "Savory Street Co.",
+            "Phone": "469-555-2020",
+            "BillingStreet": "330 West Davis Street",
+            "BillingCity": "Dallas",
+            "BillingState": "Texas",
+            "BillingPostalCode": "75208",
+            "BillingCountry": "United States",
+            "Type": "Independent Vendor",
+            "Industry": "Food & Beverage"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef9"
+            },
+            "Name": "FlavorTrail Deli",
+            "Phone": "469-555-5050",
+            "BillingStreet": "2720 McKinney Avenue",
+            "BillingCity": "Dallas",
+            "BillingState": "Texas",
+            "BillingPostalCode": "75204",
+            "BillingCountry": "United States",
+            "Type": "Independent Vendor",
+            "Industry": "Food & Beverage"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef10"
+            },
+            "Name": "Urban Eats Collective",
+            "Phone": "214-555-1010",
+            "BillingStreet": "2401 Victory Avenue",
+            "BillingCity": "Dallas",
+            "BillingState": "Texas",
+            "BillingPostalCode": "75219",
+            "BillingCountry": "United States",
+            "Type": "Restaurant Group",
+            "Industry": "Food & Beverage"
+        }
+    ]
+}

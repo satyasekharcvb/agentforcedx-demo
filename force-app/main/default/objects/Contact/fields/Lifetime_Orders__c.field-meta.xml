@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lifetime_Orders__c</fullName>
+    <description>Total number of orders this customer has placed lifetime (app-side aggregation). Demo field used for Agentforce experiences.</description>
+    <externalId>false</externalId>
+    <label>Lifetime Orders</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Type_Description__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(
+    Type, 
+    &quot;Customer Account&quot;, &quot;Represents individual customers or organizations purchasing food or services through the platform. Typically associated with order history and loyalty programs.&quot;,
+    &quot;Restaurant Group&quot;, &quot;A company that owns or operates multiple restaurant brands or locations under a single corporate entity. Often responsible for managing partnerships at scale.&quot;,
+    &quot;Food Chain&quot;, &quot;A national or regional chain of restaurants with standardized branding, menus, and operations. Typically includes both corporate-owned and franchise locations.&quot;,
+    &quot;Franchise Owner&quot;, &quot;An independent owner operating one or more franchise locations under a larger brand. Responsible for local management and operations within franchise guidelines.&quot;,
+    &quot;Independent Vendor&quot;, &quot;A standalone business providing food or related services. Often a single location with independent ownership, such as a family-run restaurant or shop.&quot;,
+    &quot;Ghost Kitchen&quot;, &quot;A delivery-only restaurant concept with no physical dine-in location. Focuses on online orders and efficient food preparation.&quot;,
+    &quot;Food Truck&quot;, &quot;A mobile food vendor offering meals at various locations, events, or festivals. Known for flexibility and unique, often localized menus.&quot;,
+    &quot;Caterer&quot;, &quot;A business specializing in preparing and delivering food for events or large orders. Focused on providing bulk services for weddings, conferences, or parties.&quot;,
+    &quot;Convenience Store&quot;, &quot;A small retail business offering ready-to-eat meals, snacks, and beverages. Often caters to quick purchases and high traffic.&quot;,
+    &quot;Grocery Store&quot;, &quot;A retail store offering fresh produce, packaged goods, and meal kits. May also include deli services or pre-prepared meals.&quot;,
+    &quot;Corporate Client&quot;, &quot;A business entity ordering food or related services for employees, meetings, or events. Typically involves recurring or bulk orders.&quot;,
+    &quot;Supplier&quot;, &quot;A company providing goods (e.g., food ingredients, beverages, packaging) or services (e.g., cleaning, equipment) to storefronts or restaurants.&quot;,
+    &quot;Distributor&quot;, &quot;An intermediary managing the supply chain between suppliers and storefronts. Handles logistics, delivery, and inventory management.&quot;,
+    &quot;Other&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Account Type Description</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

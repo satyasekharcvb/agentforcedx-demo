@@ -1,0 +1,20 @@
+[
+    {
+        "sobject": "Account",
+        "files": [
+            "pronto-Account-import.json"
+        ]
+    },
+    {
+        "sobject": "Contact",
+        "files": [
+            "pronto-Contact-import.json"
+        ]
+    },
+    {
+        "sobject": "Storefront__c",
+        "files": [
+            "pronto-Storefront__c-import.json"
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+{
+  "Username": "pronto_agent_user@<ORG_ID_18_CHAR>.ext",
+  "LastName": "Pronto Agent",
+  "Email": "admin@example.com",
+  "Alias": "prontoag",
+  "CommunityNickname": "ea_pronto_unique_suffix",
+  "TimeZoneSidKey": "America/Los_Angeles",
+  "LocaleSidKey": "en_US",
+  "EmailEncodingKey": "UTF-8",
+  "ProfileId": "<QUERY_EINSTEIN_AGENT_USER_PROFILE_ID>",
+  "LanguageLocaleKey": "en_US"
+}

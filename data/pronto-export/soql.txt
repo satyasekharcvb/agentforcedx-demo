@@ -1,0 +1,39 @@
+SELECT
+  Name,
+  Phone,
+  BillingStreet,
+  BillingCity,
+  BillingState,
+  BillingPostalCode,
+  BillingCountry,
+  Type,
+  Industry,
+  (
+    SELECT
+      FirstName,
+      LastName,
+      Email,
+      Phone,
+      Title,
+      MailingCity,
+      MailingState
+    FROM Contacts
+  ),
+  (
+    SELECT
+      Name,
+      Description__c,
+      Status__c,
+      Type__c,
+      Cuisine__c,
+      Phone__c,
+      Image_URL__c,
+      Storefront_Overview__c,
+      Address__c
+    FROM Accounts__r
+  )
+FROM Account
+WHERE Id IN (
+  SELECT Account__c FROM Storefront__c WHERE Account__c != NULL
+)
+LIMIT 100

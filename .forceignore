@@ -1,0 +1,26 @@
+# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
+# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
+#
+# Scratch-org workflow: see scripts/SCRATCH_ORG_CHECKLIST.txt and scripts/deploy-force-app-scratch.sh
+#
+
+package.xml
+
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+
+# LWC Jest
+**/__tests__/**
+
+node_modules/
+
+# --- Optional exclusions (comment out for a “full” deploy when dependencies exist) ---
+# GenAI plugin metadata: omit unless Einstein/Agent plugins are fully wired in the repo
+# **/genAiPlugins/**   # commented out to allow retrieve of Pronto Service Agent / GenAI metadata
+# Agent authoring bundles: require all referenced Apex/flows in the org; omit for lean scratch deploys
+# **/aiAuthoringBundles/**   # commented out to allow retrieve of agent authoring bundles
+# Omit only if a linked Trailhead org had flexipage conflicts; safe to comment out for scratch-only work
+**/flexipages/Review_Record_Page.flexipage-meta.xml
+# Auto-generated Agent permission set from a specific org (Einstein Agent license); omit for portable scratch deploys
+**/permissionsets/Agentforce_Service_Agent*_Permissions.permissionset-meta.xml

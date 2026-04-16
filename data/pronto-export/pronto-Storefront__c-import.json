@@ -1,0 +1,172 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef1"
+            },
+            "Name": "Artisan\u2019s Edge Plano",
+            "Account__c": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef2"
+            },
+            "Name": "Artisan\u2019s Edge",
+            "Account__c": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef3"
+            },
+            "Name": "Artisan\u2019s Edge Uptown",
+            "Account__c": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef4"
+            },
+            "Name": "Basil & Thyme Cafe",
+            "Account__c": "@AccountRef2"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef5"
+            },
+            "Name": "Epicurean Flame",
+            "Account__c": "@AccountRef3"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef6"
+            },
+            "Name": "Fusion Bites Oak Lawn",
+            "Account__c": "@AccountRef4"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef7"
+            },
+            "Name": "Fusion Bites Knox-Henderson",
+            "Account__c": "@AccountRef4"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef8"
+            },
+            "Name": "Fusion Bites",
+            "Account__c": "@AccountRef4"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef9"
+            },
+            "Name": "Harvest Grill",
+            "Account__c": "@AccountRef5"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef10"
+            },
+            "Name": "Munch Central Trinity Groves",
+            "Account__c": "@AccountRef6"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef11"
+            },
+            "Name": "Munch Central Knox-Henderson",
+            "Account__c": "@AccountRef6"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef12"
+            },
+            "Name": "Munch Central",
+            "Account__c": "@AccountRef6"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef13"
+            },
+            "Name": "The Green Fork",
+            "Account__c": "@AccountRef7"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef14"
+            },
+            "Name": "The Savory Spot Uptown",
+            "Account__c": "@AccountRef8"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef15"
+            },
+            "Name": "The Savory Spot Bishop Arts",
+            "Account__c": "@AccountRef8"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef16"
+            },
+            "Name": "The Savory Spot",
+            "Account__c": "@AccountRef8"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef17"
+            },
+            "Name": "Trailside Deli",
+            "Account__c": "@AccountRef9"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef18"
+            },
+            "Name": "Urban Table Uptown",
+            "Account__c": "@AccountRef10"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef19"
+            },
+            "Name": "Urban Table Downtown",
+            "Account__c": "@AccountRef10"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef20"
+            },
+            "Name": "Urban Table Deep Ellum",
+            "Account__c": "@AccountRef10"
+        },
+        {
+            "attributes": {
+                "type": "Storefront__c",
+                "referenceId": "Storefront__cRef21"
+            },
+            "Name": "Urban Table",
+            "Account__c": "@AccountRef10"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+AgentforceDXDemo — new scratch org (reference checklist)
+========================================================
+
+Prerequisites: Salesforce CLI (sf), Dev Hub authorized, this project on disk.
+
+1) Create scratch org (adjust alias / duration)
+   sf org create scratch \
+     --definition-file config/project-scratch-def.json \
+     --target-dev-hub <YOUR_DEV_HUB_ALIAS> \
+     --alias my-scratch \
+     --duration-days 30 \
+     --set-default \
+     --wait 20
+
+2) Deploy application metadata (script strips agentAccesses only for deploy; source file is restored)
+   ./scripts/deploy-force-app-scratch.sh my-scratch
+
+   Manual alternative:
+   sf project deploy start --source-dir force-app --target-org my-scratch --wait 30
+
+   If deploy fails on Merchant_Management_Agent_Access (no bot), use the script above
+   or temporarily remove the <agentAccesses> block from that permission set, deploy,
+   then restore from git.
+
+3) Assign org-specific permission sets to your admin user
+   sf org assign permset --name Merchant_Management_Access --on-behalf-of <SCRATCH_ADMIN_USER> --target-org my-scratch
+
+4) Patch sample data with this org’s Partner_Account RecordType Id, then import
+   ./scripts/patch-partner-record-type.sh my-scratch
+   cd data/pronto-export
+   sf data import tree --plan pronto-import-plan.json --target-org my-scratch
+   cd ../..
+
+   Reset JSON placeholders when done (optional, for a clean git tree):
+   ./scripts/reset-data-placeholders.sh
+
+5) Einstein Agent user (do this for a backup org or any org where you need the agent runtime user;
+   metadata deploy alone does not create this user)
+   cp config/einstein-agent-user.json.example config/einstein-agent-user.json
+   Query Profile Id and Org Id, edit the JSON (Username, ProfileId, CommunityNickname).
+   sf org create user --definition-file config/einstein-agent-user.json --target-org my-scratch
+   sf org assign permset --name AgentforceServiceAgentUser --on-behalf-of <AGENT_USERNAME> --target-org my-scratch
+   sf org assign permset --name Merchant_Management_Agent_Access --on-behalf-of <AGENT_USERNAME> --target-org my-scratch
+
+Notes on .forceignore
+---------------------
+- **/genAiPlugins/** and **/aiAuthoringBundles/** are excluded so default deploys do not
+  require every GenAI plugin and full agent bundle dependency. To deploy those, temporarily
+  comment out the lines in .forceignore and resolve any missing metadata errors.
+- **/flexipages/Review_Record_Page.flexipage-meta.xml** is excluded for legacy Trailhead conflicts;
+  comment out that line if you need this page in the scratch org.

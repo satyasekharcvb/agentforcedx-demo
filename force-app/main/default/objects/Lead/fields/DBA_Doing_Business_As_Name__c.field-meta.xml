@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DBA_Doing_Business_As_Name__c</fullName>
+    <description>Merchant&apos;s DBA (Doing Business As) Name</description>
+    <externalId>false</externalId>
+    <label>DBA (Doing Business As) Name</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
