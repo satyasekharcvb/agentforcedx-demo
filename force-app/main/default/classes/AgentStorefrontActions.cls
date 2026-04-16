@@ -105,7 +105,6 @@ public without sharing class AgentStorefrontActions {
                 s.accountId = sf.Account__c;
                 s.description = sf.Description__c;
                 s.cuisine = sf.Cuisine__c;
-                s.averageReviewScore = sf.Average_Review_Score__c;
                 out.storefronts.add(s);
             }
 
