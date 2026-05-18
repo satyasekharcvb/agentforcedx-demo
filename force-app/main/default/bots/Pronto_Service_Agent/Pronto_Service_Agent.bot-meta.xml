@@ -7,7 +7,7 @@
         <name>Pronto_Service_Agent</name>
     </botMlDomain>
     <botSource>None</botSource>
-    <botUser>pronto_agent_user@00dem00000qblwnmap.ext</botUser>
+    <botUser>pronto_agent_user@00dc2000003zbzxmao.ext</botUser>
     <contextVariables>
         <contextVariableMappings>
             <SObjectType>MessagingSession</SObjectType>
