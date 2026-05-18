@@ -14,7 +14,7 @@
             "BillingCountry": "United States",
             "Type": "Restaurant Group",
             "Industry": "Food & Beverage",
-            "RecordTypeId": "__PARTNER_ACCOUNT_RECORD_TYPE_ID__"
+            "RecordTypeId": "012C2000000m6hWIAQ"
         },
         {
             "attributes": {
@@ -30,7 +30,7 @@
             "BillingCountry": "United States",
             "Type": "Independent Vendor",
             "Industry": "Food & Beverage",
-            "RecordTypeId": "__PARTNER_ACCOUNT_RECORD_TYPE_ID__"
+            "RecordTypeId": "012C2000000m6hWIAQ"
         },
         {
             "attributes": {
@@ -46,7 +46,7 @@
             "BillingCountry": "United States",
             "Type": "Independent Vendor",
             "Industry": "Food & Beverage",
-            "RecordTypeId": "__PARTNER_ACCOUNT_RECORD_TYPE_ID__"
+            "RecordTypeId": "012C2000000m6hWIAQ"
         },
         {
             "attributes": {
@@ -62,7 +62,7 @@
             "BillingCountry": "United States",
             "Type": "Restaurant Group",
             "Industry": "Food & Beverage",
-            "RecordTypeId": "__PARTNER_ACCOUNT_RECORD_TYPE_ID__"
+            "RecordTypeId": "012C2000000m6hWIAQ"
         },
         {
             "attributes": {
@@ -78,7 +78,7 @@
             "BillingCountry": "United States",
             "Type": "Restaurant Group",
             "Industry": "Food & Beverage",
-            "RecordTypeId": "__PARTNER_ACCOUNT_RECORD_TYPE_ID__"
+            "RecordTypeId": "012C2000000m6hWIAQ"
         },
         {
             "attributes": {
@@ -94,7 +94,7 @@
             "BillingCountry": "United States",
             "Type": "Restaurant Group",
             "Industry": "Food & Beverage",
-            "RecordTypeId": "__PARTNER_ACCOUNT_RECORD_TYPE_ID__"
+            "RecordTypeId": "012C2000000m6hWIAQ"
         },
         {
             "attributes": {
@@ -110,7 +110,7 @@
             "BillingCountry": "United States",
             "Type": "Independent Vendor",
             "Industry": "Food & Beverage",
-            "RecordTypeId": "__PARTNER_ACCOUNT_RECORD_TYPE_ID__"
+            "RecordTypeId": "012C2000000m6hWIAQ"
         },
         {
             "attributes": {
@@ -126,7 +126,7 @@
             "BillingCountry": "United States",
             "Type": "Independent Vendor",
             "Industry": "Food & Beverage",
-            "RecordTypeId": "__PARTNER_ACCOUNT_RECORD_TYPE_ID__"
+            "RecordTypeId": "012C2000000m6hWIAQ"
         },
         {
             "attributes": {
@@ -142,7 +142,7 @@
             "BillingCountry": "United States",
             "Type": "Independent Vendor",
             "Industry": "Food & Beverage",
-            "RecordTypeId": "__PARTNER_ACCOUNT_RECORD_TYPE_ID__"
+            "RecordTypeId": "012C2000000m6hWIAQ"
         },
         {
             "attributes": {
@@ -158,7 +158,7 @@
             "BillingCountry": "United States",
             "Type": "Restaurant Group",
             "Industry": "Food & Beverage",
-            "RecordTypeId": "__PARTNER_ACCOUNT_RECORD_TYPE_ID__"
+            "RecordTypeId": "012C2000000m6hWIAQ"
         }
     ]
 }
