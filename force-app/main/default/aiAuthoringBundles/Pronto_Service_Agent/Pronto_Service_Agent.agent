@@ -6,7 +6,7 @@ system:
 
 config:
     developer_name: "Pronto_Service_Agent"
-    default_agent_user: "pronto_agent_user@00dem00000qblwnmap.ext"
+    default_agent_user: "pronto_agent_user@00dc2000003zbzxmao.ext"
     agent_label: "Pronto Service Agent"
     description: "New agent description"
 
